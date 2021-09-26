@@ -1,6 +1,6 @@
 public class Follower implements Observer {
-    private Integer id;
-    private User user;
+    Integer id;
+    User user
 
     public Follower(Integer id, User user) {
         this.id = id;
